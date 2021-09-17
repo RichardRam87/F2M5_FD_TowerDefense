@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733404712790041915, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_Name
-      value: BuildableTIle (5)
+      value: BuildableTile (5)
       objectReference: {fileID: 0}
     - target: {fileID: 4617095832355613269, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_RootOrder
@@ -322,7 +322,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733404712790041915, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_Name
-      value: BuildableTIle (1)
+      value: BuildableTile (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4617095832355613269, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_RootOrder
@@ -446,7 +446,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733404712790041915, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_Name
-      value: BuildableTIle (4)
+      value: BuildableTile (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4617095832355613269, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_RootOrder
@@ -570,7 +570,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733404712790041915, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_Name
-      value: BuildableTIle (2)
+      value: BuildableTile (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4617095832355613269, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_RootOrder
@@ -1603,7 +1603,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733404712790041915, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_Name
-      value: BuildableTIle (3)
+      value: BuildableTile (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4617095832355613269, guid: f406dcb15c037dc478ed7560bf34c282, type: 3}
       propertyPath: m_RootOrder
