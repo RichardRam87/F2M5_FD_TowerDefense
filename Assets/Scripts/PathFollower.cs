@@ -19,7 +19,8 @@ public class PathFollower : MonoBehaviour
 
     private void Update()
     {
-        float distanceToWaypoint = Vector3.Distance(transform.position, _currentWaypoint.GetHeightCorrectedPosition(transform.position.y));
+        Vector3 heightCorrectedWaypointPosition = _currentWaypoint.GetHeightCorrectedPosition(transform.position.y);
+        float distanceToWaypoint = Vector3.Distance(transform.position, heightCorrectedWaypointPosition);
 
         if (distanceToWaypoint <= _arrivalThreshold)
         {
@@ -30,7 +31,7 @@ public class PathFollower : MonoBehaviour
             else
             {
                 _currentWaypoint = _path.GetNextWaypoint(_currentWaypoint);
-                transform.LookAt(_currentWaypoint.GetHeightCorrectedPosition(transform.position.y));
+                transform.LookAt(heightCorrectedWaypointPosition);
             }
         }
         transform.Translate(Vector3.forward * _speed * Time.deltaTime);
