@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1432269181702356990}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 608318493536148380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 5363166822438995418}
   m_Father: {fileID: 802531991029021341}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 802531991029021341}
   - component: {fileID: 3412428068208167335}
   - component: {fileID: 808249028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BaseEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,6 +145,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: eb327cf10c5f9d1458525ee5d9acaeca, type: 3}
       propertyPath: m_Name
       value: enemy_ufoRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eb327cf10c5f9d1458525ee5d9acaeca, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb327cf10c5f9d1458525ee5d9acaeca, type: 3}

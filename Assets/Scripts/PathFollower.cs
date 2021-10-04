@@ -31,7 +31,7 @@ public class PathFollower : MonoBehaviour
             else
             {
                 _currentWaypoint = _path.GetNextWaypoint(_currentWaypoint);
-                transform.LookAt(heightCorrectedWaypointPosition);
+                transform.LookAt(_currentWaypoint.GetHeightCorrectedPosition(transform.position.y));
             }
         }
         transform.Translate(Vector3.forward * _speed * Time.deltaTime);
