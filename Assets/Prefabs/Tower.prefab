@@ -76,6 +76,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fdbcd2b5be47cc4b9a6750d8002c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _damageAmount: 5
+  _shootCooldown: 1
   _turret: {fileID: 7837542826859881647}
 --- !u!114 &1079183506
 MonoBehaviour:
