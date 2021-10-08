@@ -2145,10 +2145,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaseEnemy
       objectReference: {fileID: 0}
-    - target: {fileID: 8058161589876475268, guid: e7128f4e59af2404d86d126ee175081a, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8058161589876475268, guid: e7128f4e59af2404d86d126ee175081a, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: e7128f4e59af2404d86d126ee175081a, type: 3}

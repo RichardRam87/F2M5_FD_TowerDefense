@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 802531991029021341}
   - component: {fileID: 3412428068208167335}
   - component: {fileID: 808249028}
+  - component: {fileID: 667161972984730372}
+  - component: {fileID: 7758773599580304892}
   m_Layer: 6
   m_Name: BaseEnemy
   m_TagString: Untagged
@@ -91,6 +93,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _startHealth: 10
+--- !u!114 &667161972984730372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3790451546349692855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3837195ae80544f83998a92f589c1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &7758773599580304892
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3790451546349692855}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5613581570244764209
 PrefabInstance:
   m_ObjectHideFlags: 0

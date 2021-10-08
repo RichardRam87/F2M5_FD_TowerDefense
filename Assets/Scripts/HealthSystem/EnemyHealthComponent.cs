@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class EnemyHealthComponent : HealthComponent
 {
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(5);
-        }
-    }
-
     protected override void HandleTakeDamage()
     {
         base.HandleTakeDamage();
         // update je health bar
+        print("Enemy: " + CurrentHealth);
     }
 
     protected override void Death()
